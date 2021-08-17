@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notion Stock Widget</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="light">
+    <!-- Light/Dark Btn -->
+    <div class="settings">
+      <div class="modes">
+        <button class="light">Light</button>
+        <button class="dark">Dark</button>
+      </div>
+    </div>
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" id="light">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "description": "",
+      "proName": "AMEX:VOO"
+    },
+    {
+      "description": "",
+      "proName": "NASDAQ:QQQ"
+    },
+    {
+      "description": "",
+      "proName": "AMEX:ARKK"
+    },
+    {
+      "description": "",
+      "proName": "AMEX:VWO"
+    },
+    {
+      "description": "",
+      "proName": "FTX:BTCUSD"
+    },
+    {
+      "description": "",
+      "proName": "FTX:ETHUSD"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "isTransparent": true,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" id="dark">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "description": "",
+      "proName": "AMEX:VOO"
+    },
+    {
+      "description": "",
+      "proName": "NASDAQ:QQQ"
+    },
+    {
+      "description": "",
+      "proName": "AMEX:ARKK"
+    },
+    {
+      "description": "",
+      "proName": "AMEX:VWO"
+    },
+    {
+      "description": "",
+      "proName": "FTX:BTCUSD"
+    },
+    {
+      "description": "",
+      "proName": "FTX:ETHUSD"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+    <!-- Custom JS for widget styling BEGIN -->
+    <script src="app.js"></script>
+    <!-- Custom JS END -->
+  </body>
+</html>

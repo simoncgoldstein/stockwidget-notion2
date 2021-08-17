@@ -1,31 +1,7 @@
 {
   "width": "100%",
   "height": "600",
-  "symbols": [
-    {
-      "description": "",
-      "proName": "AMEX:VOO"
-    },
-    {
-      "description": "",
-      "proName": "NASDAQ:QQQ"
-    },
-    {
-      "description": "",
-      "proName": "AMEX:ARKK"
-    },
-    {
-      "description": "",
-      "proName": "AMEX:VWO"
-    },
-    {
-      "description": "",
-      "proName": "FTX:BTCUSD"
-    },
-    {
-      "description": "",
-      "proName": "FTX:ETHUSD"
-    }
+ 
   ],
   "showSymbolLogo": true,
   "colorTheme": "dark",
